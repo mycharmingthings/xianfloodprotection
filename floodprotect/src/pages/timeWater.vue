@@ -1,18 +1,18 @@
 <template>
   <div>
-	<top></top>
-    <MeteorologicaWarning></MeteorologicaWarning>
+	  <top></top>
+    <weatherForecast></weatherForecast>
   </div>
 </template>
 
 <script>
 	 import top from "../components/header/top";
-	 import MeteorologicaWarning from "../components/MeteorologicaWarning";
+	 import weatherForecast from "../components/weatherForecast";
     
      import '../assets/css/top.css'
 	export default {
 	    components:{
-	       top,MeteorologicaWarning
+	       top2
 	    },
 	    mounted:function(){
 	    }

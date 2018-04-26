@@ -1,8 +1,10 @@
 <template>
-    <ul class="table" id="index">
-      <router-link to="/MeteorologicaWarning" class="a active"><li class="left">气象预警</li></router-link>
-      <router-link to="/floodProjectWethForecast" class="a"><li class="right">气象预报</li></router-link>
+  <div class="online">
+    <ul class="table">
+      <router-link to="/" class="a active"><li class="left">重点河道水情</li></router-link>
+      <router-link to="/floodProjectWethForecast" class="a"><li class="right">重点水库水情</li></router-link>
     </ul>
+  </div>
 </template>
 <script>
 import "../../assets/js/jquery-1.8.3.min.js"

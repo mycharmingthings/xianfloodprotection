@@ -1,21 +1,25 @@
 <template>
-	<bottom></bottom>
+  <div>
+		<ul>
+			<li>
+				<a href="#/">
+					<img src=" ">
+					<span>科普知识</span>
+				</a>
+			<li>
+		</ul>
+  </div>
 </template>
 
 <script>
-	 import bottom from "../components/bottom/bottom";
-    
-     import '../assets/css/bottom.css'
 	export default {
 	    components:{
-	       bottom
+	       top2
 	    },
 	    mounted:function(){
-
 	    }
 	}
 </script>
-
 <style lang="sass">
-   
+    
 </style>
